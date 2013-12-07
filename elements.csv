@@ -3,30 +3,31 @@
 
 Text-level semantics, Text-level semantics, 字級語意元素, ziji yuyi yuansu, , 
 
-a, Hyperlink, 超連結, chaolianjie, 表示同其內容相關的超文字連結。, Represents a hyperlink labeled by its contents.
-em, Stress emphases, 強調, qiangdiao, 表示內文的強調。, Represents stress emphasis of its contents.
-strong, Importance, 重點, zhongdian, , 
-small, side comments,批注, pizhi, , 
-s, Inaccurate text, 訛訊, exun, , 
-cite, Titles of works, 來源, laiyuan, , 
-q, Quotations, 引用, yinyong, , 
-dfn, Defining instance, 術語, shuyu, , 
-abbr, Abbreviations, 縮寫, suoxie, , 
-data, Machine-readable equivalent, 計算機可讀數據, jishuanji kedu shuju, , 
-time, Machine-readable equivalent of date- or time-related data, 計算機可讀日期／時間, jishuangji kedu riqi/shijian, , 
-code, Computer code, 代碼, daima, , 
-var, Variables, 變數, bianshu, , 
-samp, Computer output, 計算機輸出示例, , , 
-kbd, User input, 輸入鍵, , , 
-sub, Subcripts, 下標, , , 
-sup, Superscripts, 上標, , , 
-i, Alternative voice, 變音, , , 
-b, Keywords, 關鍵字, , , 
-u, Annotations, 註記, , , 
-mark, Highlight, 凸顯, , , 
-ruby/rt/rp, Ruby annotations, 小字註記 , , , 
-bdi, Text directionality isolation, 文字方向孤立區, , , 
-span, Other, 文字範圍, , , 
-br, Line break, 換行, , , 
-wbr, Line break opportunity, 機會換行, , , 
+a, Hyperlink, 超連結, chaolianjie, 表示超文字連結內容。, Represents a hyperlink labeled by its contents.
+em, Stress emphases, 強調, qiangdiao, 表示強調內容。, Represents stress emphasis of its contents.
+strong, Importance, 重點, zhongdian, 表示重點內容。, Represents strong importance for its contents.
+small, side comments,批注, pizhi, 表示小字批注或註解。, Represents side comments such as small print.
+s, Inaccurate text, 訛訊, exun, 表示不再正確或相關的資訊。, Represents contents that are no longer accurate or no longer relevant.
+cite, Titles of works, 來源, laiyuan, 表示着作名稱。, Represents the title of a work.
+q, Quotations, 引用, yinyong, 表示一段來自其他出處的內容。, Represents some phrasing content quoted from another source.
+dfn, Defining instance, 術語, shuyu, 表示概念或術語。, Represents the defining instance of a term.
+abbr, Abbreviations, 縮寫, suoxie, 表示一個縮寫或首字母縮略詞。, Represents an abbreviation or acronym.
+data, Machine-readable equivalent, 計算機可讀數據, jishuanji kedu shuju, 表示一包含可供計算機讀取的數據形式之屬性的內容。, Represents its contents, along with a machine-readable form of those contents in the value attribute.
+time, Machine-readable equivalent of date- or time-related data, 計算機可讀日期／時間, jishuangji kedu riqi/shijian, 表示一包含可供計算機讀取的日期／時間數據形式之屬性的內容。, Represents its contents, along with a machine-readable form of those contents in the datetime attribute.
+code, Computer code, 計算機代碼, daima, 表示一計算機代碼片段, Represents a fragment of computer code.
+var, Variables, 變數, bianshu, 表示一個變數。, Represents a variable.
+samp, Computer output, 計算機輸出示例, jishuanji shuchu shili, 表示程序或計算機系統之輸出內容。, Represents (sample) output from a program or computing system.
+kbd, User input, 輸入鍵, shurujian, 表示用戶的輸入鍵（通常為鍵盤鍵值，亦可用於表示其他輸入方式，如聲控）。, Represents user input (typically keyboard input, although it may also be used to represent other input, such as voice commands).
+sub, Subcripts, 下標, xiabiao, 表示下標, Represents a subscript.
+sup, Superscripts, 上標, shangbiao, 表示上標, Represents a superscript.
+i, Alternative voice, 變音, bianyin, 表示一段包含聲調或情緒變化的文字。或用於凸顯一段文字同他文性質相異，如分類學名稱、技術術語、外語慣用詞組、音譯、想法及西文船名等。, Represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts.
+b, Keywords, 關鍵字, guanjianzi, 表示一段具實際效用、需吸引讀者注者，卻不包含額外重點或變音暗示的文字，如文件摘要中的關鍵字、相關評論之產品名稱、互動性文字操作軟體中具作用的詞組或文章開頭精華等, Represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede.
+u, Annotations, 註記, zhuji, 表示一段不連貫而有精準視覺表達目的的非文本註記，如中文專名號及錯誤拼寫的標注。, Represents a span of text with an unarticulated, though explicitly rendered, non-textual annotation, such as labeling the text as being a proper name in Chinese text (a Chinese proper name mark), or labeling the text as being misspelt.
+mark, Highlight, 凸顯, tuxian, 表示一段具參考價值而需特別標注凸顯的文字。, Represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context. 
+ruby/rt/rp, Ruby annotations, 小字註記, xiaozi zhuji, 為一段字旁標有小字註記的文字，首要用於東亞文字排印中的文字音注或註記。, Are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.
+bdi, Text directionality isolation, 文字方向孤立區, wenzi fangxiang guliqu, 表示一段需要同他文孤立文字方向格式的文字。, Represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting.
+bdo, Text directionality formatting, 文字方向格式, wenzi fangxiang geshi, 表示一段精準控制文字方向格式的文字。, Represents explicit text directionality formatting control for its children. 
+span, Other, 文字範圍, wenzi fanwei, 不具任何意義，但同全域屬性——如`class`、`lang`、`dir`等——共用時，表示其自身。, Doesn't mean anything on its own, but can be useful when used together with the global attributes, e.g. class, lang, or dir. It represents its children.
+br, Line break, 換行, huanhang, 表示一換行。, Represents a line break.
+wbr, Line break opportunity, 機會斷行, jihui duanhang, 表示一斷行機會。, Represents a line break opportunity.
 
