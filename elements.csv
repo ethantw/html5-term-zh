@@ -35,24 +35,8 @@ wbr, Line break opportunity, 機會斷行, jihui duanhang, 表示一斷行機會
 
 Edits, , 編訂類, bianding lei, , 
 
-ins, insert, 增訂, zengding, 表示文件的增訂。, "Represents an addition to the document."
+ins, insertion, 增訂, zengding, 表示文件的增訂。, "Represents an addition to the document."
 del, deletion, 刪訂, shanding, 表示文件的刪訂。, "Represents a removal from the document."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
