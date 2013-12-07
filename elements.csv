@@ -1,32 +1,32 @@
 元素, 用途原文, 元素名稱中譯, 元素名稱拼音, 定義, 原文定義
 
 
-Text-level semantics, Text-level semantics, 字級語意元素, ziji yuyi yuansu, , ,
+Text-level semantics, Text-level semantics, 字級語意元素, ziji yuyi yuansu, , 
 
 a, Hyperlink, 超連結, chaolianjie, 表示同其內容相關的超文字連結。, Represents a hyperlink labeled by its contents.
 em, Stress emphases, 強調, qiangdiao, 表示內文的強調。, Represents stress emphasis of its contents.
-strong, Importance, 重點, zhongdian
-small, side comments,批注, pizhi
-s, Inaccurate text, 訛訊, exun, 
-cite, Titles of works, 來源, laiyuan
-q, Quotations, 引用, yinyong
-dfn, Defining instance, 術語, shuyu
-abbr, Abbreviations, 縮寫, suoxie, 
-data, Machine-readable equivalent, 計算機可讀數據, jishuanji kedu shuju
-time, Machine-readable equivalent of date- or time-related data, 計算機可讀日期／時間, jishuangji kedu riqi/shijian
-code, Computer code, 代碼, daima
-var, Variables, 變數, bianshu
-samp, Computer output, 計算機輸出示例
-kbd, User input, 輸入鍵
-sub, Subcripts, 下標
-sup, Superscripts, 上標
-i, Alternative voice, 變音
-b, Keywords, 關鍵字
-u, Annotations, 註記
-mark, Highlight, 凸顯
-ruby/rt/rp, Ruby annotations, 小字註記 
-bdi, Text directionality isolation, 文字方向孤立區
-span, Other, 文字範圍
-br, Line break, 換行
-wbr, Line break opportunity, 機會換行
+strong, Importance, 重點, zhongdian, , 
+small, side comments,批注, pizhi, , 
+s, Inaccurate text, 訛訊, exun, , 
+cite, Titles of works, 來源, laiyuan, , 
+q, Quotations, 引用, yinyong, , 
+dfn, Defining instance, 術語, shuyu, , 
+abbr, Abbreviations, 縮寫, suoxie, , 
+data, Machine-readable equivalent, 計算機可讀數據, jishuanji kedu shuju, , 
+time, Machine-readable equivalent of date- or time-related data, 計算機可讀日期／時間, jishuangji kedu riqi/shijian, , 
+code, Computer code, 代碼, daima, , 
+var, Variables, 變數, bianshu, , 
+samp, Computer output, 計算機輸出示例, , 
+kbd, User input, 輸入鍵, , 
+sub, Subcripts, 下標, , 
+sup, Superscripts, 上標, , 
+i, Alternative voice, 變音, , 
+b, Keywords, 關鍵字, , 
+u, Annotations, 註記, , 
+mark, Highlight, 凸顯, , 
+ruby/rt/rp, Ruby annotations, 小字註記 , , 
+bdi, Text directionality isolation, 文字方向孤立區, , 
+span, Other, 文字範圍, , 
+br, Line break, 換行, , 
+wbr, Line break opportunity, 機會換行, , 
 
