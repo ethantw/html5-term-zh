@@ -8,5 +8,5 @@ s, Inaccurate text, 訛訊, exun, 表示不再正確或相關的資訊。, "Repr
 cite, Titles of works, 來源, laiyuan, 表示着作名稱。, "Represents the title of a work."
 q, Quotations, 引用, yinyong, 表示一段來自其他出處的內容。, "Represents some phrasing content quoted from another source."
 dfn, Defining instance, 術語, shuyu, 表示概念或術語。, "Represents the defining instance of a term."
-abbr, Abbreviations, 縮寫, suoxie, 表示一個縮寫或首字母縮略詞。, "Represents an abbreviation or acronym."
+abbr, Abbreviations, 縮寫, suoxie, 表示一個縮寫或首字母縮略詞。, "Represents, an abbreviation or acronym."
 
