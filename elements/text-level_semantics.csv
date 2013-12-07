@@ -1,5 +1,5 @@
 元素, 用途原文, 元素名稱中譯, 元素名稱拼音, 定義, 原文定義
-Text-level semantics, , 字級語意類, ziji yuyi lei, , 
+Text-level Semantics, , 字級語意類, ziji yuyi lei, , 
 ,,,,,
 a, Hyperlink, 超連結, chaolianjie, 表示超文字連結內容。, "Represents a hyperlink labeled by its contents."
 em, Stress emphases, 強調, qiangdiao, 表示強調內容。, "Represents stress emphasis of its contents."
