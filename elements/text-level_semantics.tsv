@@ -19,14 +19,7 @@ sub	Subcripts	下標	xiabiao	表示下標。	Represents a subscript.
 sup	Superscripts	上標	shangbiao	表示上標。	Represents a superscript.
 i	Alternative voice	變音	bianyin	表示一段包含聲調或情緒變化的文字。或用於凸顯一段文字同他文性質相異，如分類學名稱、技術術語、外語慣用詞組、音譯、想法及西文船名等。	Represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts.
 b	Keywords	關鍵字	guanjianzi	表示一段具實際效用、需吸引讀者注者，卻不包含額外重點或變音暗示的文字，如文件摘要中的關鍵字、相關評論之產品名稱、互動性文字操作軟體中具作用的詞組或文章開頭精華等。	Represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede.
-u	Annotations	註記	zhuji	表示一段不連貫而有精準視覺表達目的的非文本註記，如中文專名號及錯誤拼寫的標注。	Represents a span of text with an unarticulated, though explicitly rendered, non-textual annotation, such as labeling the text as being a proper name in Chinese text (a Chinese proper name mark), or labeling the text as being misspelt.
-mark	Highlight	凸顯	tuxian	表示一段具參考價值而需特別標注凸顯的文字。	Represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context. 
-ruby/rt/rp	Ruby annotations	小字標注	xiaozi zhuji	一段一旁標有小字注釋的文字，首要用於東亞文字排印中的文字音注或註記。	Are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.
-bdi	Text directionality isolation	文字方向孤立區	wenzi fangxiang guliqu	表示一段需要同他文孤立文字方向格式的文字。	Represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting.
-bdo	Text directionality formatting	文字方向格式	wenzi fangxiang geshi	表示一段精準控制文字方向格式的文字。	Represents explicit text directionality formatting control for its children. 
-span	Other	文字範圍	wenzi fanwei	不具任何意義，但同全域屬性——如`class`、`lang`、`dir`等——共用時，表示其自身。	Doesn't mean anything on its own, but can be useful when used together with the global attributes, e.g. class, lang, or dir. It represents its children.
-br	Line break	換行	huanhang	表示一換行。	Represents a line break.
-wbr	Line break opportunity	機會斷行	jihui duanhang	表示一斷行機會。	Represents a line break opportunity.
+
 
 
 
