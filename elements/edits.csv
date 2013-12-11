@@ -1,5 +1,5 @@
 編訂元素, 用途原文, 元素名稱中譯, 元素名稱拼音, 定義, 原文定義
-,,,,,
+
 ins, insertion, 增訂, zengding, 表示文件的增訂。, "Represents an addition to the document."
 del, deletion, 刪訂, shanding, 表示文件的刪訂。, "Represents a removal from the document."
 
